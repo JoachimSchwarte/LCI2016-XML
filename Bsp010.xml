@@ -34,7 +34,7 @@
 <Fluss>
 <Fluss-Name>Z</Fluss-Name>
 <Fluss-Typ>Produkt</Fluss-Typ>
-<Fluss-Einheit>Stk</Fluss-Einheit>
+<Fluss-Einheit>Items</Fluss-Einheit>
 </Fluss>
 <Fluss>
 <Fluss-Name>el. Strom</Fluss-Name>
