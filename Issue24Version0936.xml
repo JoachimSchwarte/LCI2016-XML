@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<XML>
+<Flüsse>
+<Fluss>
+<Fluss-Name>Rohstoff 1</Fluss-Name>
+<Fluss-Typ>Elementar</Fluss-Typ>
+<Fluss-Einheit>t</Fluss-Einheit>
+</Fluss>
+<Fluss>
+<Fluss-Name>Emission 1</Fluss-Name>
+<Fluss-Typ>Elementar</Fluss-Typ>
+<Fluss-Einheit>kg</Fluss-Einheit>
+</Fluss>
+<Fluss>
+<Fluss-Name>Produkt 1</Fluss-Name>
+<Fluss-Typ>Produkt</Fluss-Typ>
+<Fluss-Einheit>kg</Fluss-Einheit>
+</Fluss>
+<Fluss>
+<Fluss-Name>Produkt 2</Fluss-Name>
+<Fluss-Typ>Produkt</Fluss-Typ>
+<Fluss-Einheit>Items</Fluss-Einheit>
+</Fluss>
+</Flüsse>
+<Prozessmodule>
+<Prozessmodul>
+<Prozessmodul-Name>Modul 1</Prozessmodul-Name>
+<Elementarflussvektor>
+<EFV-Element>
+<FV-Element-Name>Emission 1</FV-Element-Name>
+<FV-Element-Menge>300.0</FV-Element-Menge>
+</EFV-Element>
+<EFV-Element>
+<FV-Element-Name>Rohstoff 1</FV-Element-Name>
+<FV-Element-Menge>1.5</FV-Element-Menge>
+</EFV-Element>
+</Elementarflussvektor>
+<Produktflussvektor>
+<PFV-Element>
+<FV-Element-Name>Produkt 1</FV-Element-Name>
+<FV-Element-Menge>70.0</FV-Element-Menge>
+</PFV-Element>
+<PFV-Element>
+<FV-Element-Name>Produkt 2</FV-Element-Name>
+<FV-Element-Menge>1.0</FV-Element-Menge>
+</PFV-Element>
+</Produktflussvektor>
+</Prozessmodul>
+</Prozessmodule>
+<Produktsysteme>
+<Produktsystem>
+<Produktsystem-Name>System 2</Produktsystem-Name>
+<PS-Module>
+<PS-Modul>
+<PSM-Name>Modul 1</PSM-Name>
+</PS-Modul>
+</PS-Module>
+<Bedarfsvektor>
+<BV-Element>
+<BV-Element-Name>Produkt 2</BV-Element-Name>
+<BV-Element-Menge>1.0</BV-Element-Menge>
+</BV-Element>
+</Bedarfsvektor>
+<Vor-und-Koppelprodukte>
+<VuK-Element>
+<VuK-Element-Name>Produkt 1</VuK-Element-Name>
+</VuK-Element>
+</Vor-und-Koppelprodukte>
+</Produktsystem>
+<Produktsystem>
+<Produktsystem-Name>System 1</Produktsystem-Name>
+<PS-Module>
+<PS-Modul>
+<PSM-Name>Modul 1</PSM-Name>
+</PS-Modul>
+</PS-Module>
+<Bedarfsvektor>
+<BV-Element>
+<BV-Element-Name>Produkt 2</BV-Element-Name>
+<BV-Element-Menge>1.0</BV-Element-Menge>
+</BV-Element>
+</Bedarfsvektor>
+<Vor-und-Koppelprodukte/>
+</Produktsystem>
+</Produktsysteme>
+<Wirkungskategorien/>
+<Charakterisierungsfaktoren/>
+<Bewertungsmethoden/>
+<Produktdeklarationen/>
+<Produktkomponenten/>
+<Produktkompositionen/>
+</XML>
